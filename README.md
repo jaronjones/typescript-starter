@@ -21,5 +21,5 @@ yarn add --dev ts-node nodemon
 yarn add --dev rimraf
 yarn add --dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 yarn add --dev eslint-plugin-no-loops
-yarn add --dev eslint-plugin-shopify
+yarn add --dev @shopify/eslint-plugin
 ```
