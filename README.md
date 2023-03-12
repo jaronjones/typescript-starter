@@ -29,4 +29,5 @@ yarn add --dev eslint-plugin-no-loops
 yarn add --dev @shopify/eslint-plugin
 yarn add --dev prettier
 yarn add --dev onchange
+yarn add --dev eslint-config-prettier eslint-plugin-prettier
 ```
