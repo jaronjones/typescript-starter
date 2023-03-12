@@ -1,4 +1,4 @@
-# TypesScript Basic Starter
+# TypeScript Basic Starter
 ## Initial Setup
 ```
 npm init -y
