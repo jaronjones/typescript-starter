@@ -20,4 +20,6 @@ npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModul
 yarn add --dev ts-node nodemon
 yarn add --dev rimraf
 yarn add --dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+yarn add --dev eslint-plugin-no-loops
+yarn add --dev eslint-plugin-shopify
 ```
