@@ -14,3 +14,9 @@ yarn add @types/node --dev
 ```
 npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
 ```
+
+## Useful Tools 
+```
+yarn add --dev ts-node nodemon
+yarn add --dev rimraf
+```
