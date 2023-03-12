@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
     "start:dev": "nodemon --exec ts-node src/index.ts",
     "start": "npm run dist && node dist/index.js"
   },
@@ -18,7 +19,6 @@
     "@typescript-eslint/parser": "^5.54.1",
     "eslint": "^8.36.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-shopify": "^35.1.0",
     "nodemon": "^2.0.21",
     "rimraf": "^4.4.0",
     "ts-node": "^10.9.1",
