@@ -19,4 +19,5 @@ npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModul
 ```
 yarn add --dev ts-node nodemon
 yarn add --dev rimraf
+yarn add --dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
