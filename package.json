@@ -9,8 +9,9 @@
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "prettier-watch": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
-    "start:dev": "nodemon --exec ts-node src/index.ts",
-    "start": "npm run dist && node dist/index.js"
+    "start:dev": "npx nodemon",
+    "start": "npm run dist && node dist/index.js",
+    "build": "rimraf ./dist && tsc"
   },
   "keywords": [],
   "author": "",
